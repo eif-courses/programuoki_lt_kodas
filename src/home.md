@@ -53,10 +53,6 @@ features:
   details: Kompiuterinio žaidimo D2R pagalbinis įrankis su Vue.JS karkasu.
   link: https://d2cube.web.app/
 
-- title: VIKO EIF Muziejus Android mob. programėlė
-  details: EIF fakulteto muziejaus programėlė su 3D modelių atvaizdavimu ir įrašų perklausymo funkcija.
-  link: https://play.google.com/store/apps/details?id=eif.viko.lt.vilniaus.kolegija.elektronikos.muziejus
-
 copyrightText: false
 footer: MIT Licensed | Copyright © 2021-present M. Gzegozevskis
 ---

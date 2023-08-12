@@ -2,25 +2,25 @@ import { navbar } from "vuepress-theme-hope";
 
 export default navbar([
   {text: "Pradžia", link: "/", icon: "home"},
-  {text: "Projektai", link: "/home/", icon: "software"},
+  {text: "Mano Projektai", link: "/home/", icon: "folder"},
   {
     text: "Java",
-    icon: "java",
+    icon: "folder-open",
     link: "/java/",
   },
   {
     text: "Android",
-    icon: "tool",
+    icon: "folder-open",
     link: "/android/",
   },
   {
     text: "Testavimas",
-    icon: "tool",
+    icon: "folder-open",
     link: "/testing/",
   },
   {
     text: "C/C++",
-    icon: "code",
+    icon: "folder-open",
     link: "/cpp/",
   },
 ]);

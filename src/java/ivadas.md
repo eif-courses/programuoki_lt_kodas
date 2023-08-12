@@ -135,12 +135,3 @@ if(skaicius instanceof Integer) {
 }
 ~~~
 
-
-## Page structure
-
-This page should contain:
-
-- Back to top button
-- Route navigation
-- Comments
-- Footer

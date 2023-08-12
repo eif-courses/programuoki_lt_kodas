@@ -8,6 +8,7 @@ export default sidebar({
             collapsible: false,
             children: [
                 "",
+                "projektukurimoirankiai",
                 "staticfinal" /* /foo/two.html */,
                 "isimtys",
                 "kolekcijos",
@@ -87,13 +88,9 @@ export default sidebar({
             collapsible: false,
             children: [
                 "",
-                "staticfinal" /* /foo/two.html */,
-                "isimtys",
-                "kolekcijos",
-                "parametrizuoti",
-                "anotacijosirjavadocs",
-                "lambda",
-                "regex",
+                "kotlinjvm",
+                "android",
+                "architektura"
             ]
         }],
     "/cpp/": [
