@@ -16,6 +16,7 @@ export default sidebar({
                 "anotacijosirjavadocs",
                 "lambda",
                 "regex",
+                "kotlinjvm"
             ]
         },
         {
