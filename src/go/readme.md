@@ -58,24 +58,22 @@ Sukurti sveikas pasaulį programą pakanka sukurti naują failą pavadinimu **ma
 Einamajame kataloge bus sukurtas failas main.go į kurį bus įrašytas tekstas **package main**, tai reiškia jog šis failas priklauso šiam katalogui. 
 Sekantis žingsnis atidaryti failą main.go su pasirinktu tekstiniu redaktoriu pvz. nano, notepad, vscode ar kt. Ir jame suvesti programinį kodą:
 ```go 
-
-// Pagrindinės programos failas visada yra pažymimas
-// kaip main katalogas (package) ir turi main funkciją kaip startinį 
-// programos failą, kurio tikslas iškaidyti programos struktūrą į 
-// atskirtus katalogus pagal paskirtį
 package main
-
-// Standartinė biblioteka darbui su: 
-// įvedimo iš klaviatūros 
-// išvedimo į ekraną funkcijomis
 import "fmt"
-
 // Pagrindinė funkcija main kuri startuoją Go programą
 func main() {
     // Funkcija skirta išvesti tekstą į ekraną.
 	fmt.Print("Sveikas Pasauli!")
 }
 ```
+- **package main** - Pagrindinės programos failas visada yra pažymimas
+kaip main katalogas (package) ir turi main funkciją kaip startinį
+programos failą, kurio tikslas iškaidyti programos struktūrą į
+atskirtus katalogus pagal paskirtį
+- **import "fmt"** - Standartinė biblioteka darbui su:
+  - įvedimo iš klaviatūros;
+  -  išvedimo į ekraną funkcijomis.
+
 Tada komandinėje eilutėje įvesti komandą:
 ```cmd
 go run main.go
@@ -94,6 +92,7 @@ Pasirinkti programavimo aplinką:
 - Studentams galima aplikuoti nemokamai: https://www.jetbrains.com/go/
 - VSCode nemokamas teksto redaktorius: https://code.visualstudio.com/,
   papildomai reikia įdiegti Go papildinius (angl. plugins) ir parengti darbui: https://www.youtube.com/watch?v=1MXIGYrMk80
+- Galima naudoti internete esantį Go kalbos kompiliatorių: https://play.golang.org/
 - Taip pat galima naudoti ir kitas programavimo aplinkas, kurios palaiko Go programavimo kalbą.
 
 ### Programavimo kalbos Go bibliotekos
