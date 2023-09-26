@@ -81,16 +81,20 @@ export default sidebar({
 
 
     ],
-    "/android/": [
+    "/go/": [
         {
-            text: "Programos konstrukcijos",
+            text: "Pagrindai",
             icon: "arrow-down",
             collapsible: false,
             children: [
                 "",
-                "kotlinjvm",
-                "android",
-                "architektura"
+                "tipai",
+                "operatoriai",
+                "salygos",
+                "ciklai",
+                "strukturos",
+                "funkcijos",
+                "webservisai",
             ]
         }],
     "/cpp/": [

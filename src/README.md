@@ -8,10 +8,10 @@ tagline: Programavimo kursai lietuviškai
 heroFullScreen: false
 projects:
 
-  - icon: /icons8-android-96.png
-    name: Android OS
-    desc: Mobiliųjų programėlių kūrimas
-    link: android/
+  - icon: /go_kalba.png
+    name: Go
+    desc: Go programavimo kalba (naujas kursas)
+    link: go/
     
   - icon: /icons8-java.svg
     name: Java

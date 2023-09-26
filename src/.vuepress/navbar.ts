@@ -4,14 +4,14 @@ export default navbar([
   {text: "Pradžia", link: "/", icon: "home"},
   {text: "Mano Projektai", link: "/home/", icon: "folder"},
   {
+    text: "Go kalba",
+    icon: "folder-open",
+    link: "/go/",
+  },
+  {
     text: "Java",
     icon: "folder-open",
     link: "/java/",
-  },
-  {
-    text: "Android",
-    icon: "folder-open",
-    link: "/android/",
   },
   {
     text: "Testavimas",
