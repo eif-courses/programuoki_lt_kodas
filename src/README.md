@@ -19,9 +19,9 @@ projects:
     link: java/    
     
   - icon: /icons8-internet-96.png
-    name: Javascript karkasai
-    desc: Interneto svetainių kūrimas
-    link: web/
+    name: Mano projektai
+    desc: Projektai kuriuos kūriau
+    link: home/
   
   - icon: /icons8-link-80.png
     name: Nemokamos paslaugos

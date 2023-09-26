@@ -2,9 +2,8 @@ import { navbar } from "vuepress-theme-hope";
 
 export default navbar([
   {text: "Pradžia", link: "/", icon: "home"},
-  {text: "Mano Projektai", link: "/home/", icon: "folder"},
   {
-    text: "Go kalba",
+    text: "Go",
     icon: "folder-open",
     link: "/go/",
   },
@@ -13,14 +12,11 @@ export default navbar([
     icon: "folder-open",
     link: "/java/",
   },
+  {text: "Mano Projektai", link: "/home/", icon: "folder"},
+
   {
     text: "Testavimas",
     icon: "folder-open",
     link: "/testing/",
-  },
-  {
-    text: "C/C++",
-    icon: "folder-open",
-    link: "/cpp/",
   },
 ]);
