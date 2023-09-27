@@ -2,7 +2,7 @@
 # This is the icon of the page
 
 # This is the title of the article
-title: Funkckijos
+title: Funkckijos ir metodai
 # Set author
 author: M.Gzegozevskis
 # Set writing time

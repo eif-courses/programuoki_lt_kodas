@@ -90,11 +90,14 @@ export default sidebar({
             children: [
                 "",
                 "tipai",
+                "rodykles",
+                "masyvai",
                 "operatoriai",
                 "salygos",
                 "ciklai",
-                "strukturos",
                 "funkcijos",
+                "strukturos",
+                "lygiagretumas",
                 "webservisai",
             ]
         }],

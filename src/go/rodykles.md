@@ -2,7 +2,7 @@
 # This is the icon of the page
 
 # This is the title of the article
-title: Tipai ir Kintamieji
+title: Rodyklės (angl. Pointers)
 # Set author
 author: M.Gzegozevskis
 # Set writing time
@@ -40,13 +40,6 @@ Go kalboje kintamojo aprašymui galima naudoti keletą būdų tai galioja visiem
 ```go
 package main
 
-const TIESA = true
-const NETIESA = false
-// arba kelios konstantos iš karto
-const (
-    KOEFICIENTAS = 3.251
-    PI = 3.14
-)
 func main(){
     var skaicius int 
     var numeris = 5 
@@ -61,7 +54,6 @@ func main(){
   skaičius ir inicijuojamas reikšme 5.
 - Trečias būdas```skaitmuo := 10```, Trumpesnis būdas aprašyti kintamąjį kai žinoma jo reikšmė iš karto kintamasis
   skaitmuo yra sveikas skaičius ir inicijuojamas reikšme 10.
-- Ketvirtas būdas ```const TIESA = true```, aprašyti konstantoms jeigu reikia kad reikšmė nebūtu keičiama ir naudojama keliose programos vietose.
 
 ## Programavimo kalbos Go Tipai
 
