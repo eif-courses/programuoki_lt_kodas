@@ -90,6 +90,7 @@ export default sidebar({
             children: [
                 "",
                 "tipai",
+                "ivedimas",
                 "rodykles",
                 "masyvai",
                 "operatoriai",
