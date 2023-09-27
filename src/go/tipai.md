@@ -32,7 +32,6 @@ footer: MIT Licensed | Copyright © 2021-present M. Gzegozevskis
 |  select   | struct | switch  |    type     |   var    |
 |   break   |  case  |  chan   |    const    | continue |
 
-
 ## Kinamieji
 
 Go kalboje kintamojo aprašymui galima naudoti keletą būdų tai galioja visiems numatytiems go kalbos tipams:
@@ -61,7 +60,8 @@ func main(){
   skaičius ir inicijuojamas reikšme 5.
 - Trečias būdas```skaitmuo := 10```, Trumpesnis būdas aprašyti kintamąjį kai žinoma jo reikšmė iš karto kintamasis
   skaitmuo yra sveikas skaičius ir inicijuojamas reikšme 10.
-- Ketvirtas būdas ```const TIESA = true```, aprašyti konstantoms jeigu reikia kad reikšmė nebūtu keičiama ir naudojama keliose programos vietose.
+- Ketvirtas būdas ```const TIESA = true```, aprašyti konstantoms jeigu reikia kad reikšmė nebūtu keičiama ir naudojama
+  keliose programos vietose.
 
 ## Programavimo kalbos Go Tipai
 
@@ -91,11 +91,9 @@ func main() {
 
 ### Sveikieji skaičiai
 
-su prierašu u (unsigned) - reiškia skaičius be ženklo, o kitu atveju skaičius su ženklu. (angl. Integers): **int8** (
-8-bit), **int16** (16-bit), **int32** (32-bit) arba sinonimas **rune**, **int64** (64-bit), **uint8** (8-bit) arba
-sinonimas **byte**, **uint16** (16-bit), **uint32** (32-bit), **uint64** (64-bit), **int** (platform dependent (
-priklauso nuo Operacinės sistemos yra 32 bit arba 64 bit)), **uint** (platform dependent (priklauso nuo Operacinės
-sistemos yra 32 bit arba 64 bit)):
+Priešdelis **u** - reiškia skaičius be ženklo, o kitu atveju skaičius su ženklu. (angl. Integers): **int8** (8-bit), **int16** (16-bit), **int32** (32-bit) arba sinonimas **rune**, **int64** (64-bit), **uint8** (8-bit) arba
+sinonimas **byte**, **uint16** (16-bit), **uint32** (32-bit), **uint64** (64-bit), **int** (platform dependent (priklauso nuo Operacinės sistemos yra 32 bit arba 64 bit)), **uint** (platform dependent (priklauso nuo Operacinės
+sistemos yra 32 bit arba 64 bit)), **uintptr** - tipas skirtas saugoti adresui kaip skaičiui, bet ne kaip rodyklė, kuri nukreipta į reikšmę. Pavyzdys kaip aprašomi skirtingi tipai:
 
 ```go
 package main
@@ -115,13 +113,14 @@ func main() {
     var j uint = 4294967295
     var r rune = 2147483647 // nuo -2147483648
     var s byte = 255 
+    var adresas uintptr = 0xc82000c290 // ekrane bus atvaizduotas skaičius 859530379920
 }
 ```
 
 ### Kompleksiniai skaičiai
 
-**complex64**    kompleksinis skaičius sudarytas iš float32 kaip realioji dalis ir menama dalis.
-**complex128**    kompleksinis skaičius sudarytas iš float64 kaip realioji dalis ir menama dalis.
+**complex64**  - kompleksinis skaičius sudarytas iš float32 kaip realioji dalis ir menama dalis.
+**complex128**  - kompleksinis skaičius sudarytas iš float64 kaip realioji dalis ir menama dalis.
 Darbui su kompleksiniais skaičiais yra numatytos standartinės bibliotekos funkcijos:
 
 - **complex (a,b)** – sudaryti kompleksinį skaičių iš dviejų realiųjų (float32 ar float64) skaičių.
@@ -178,7 +177,9 @@ Ekrane bus išvestas tekstas:
 ```cmd
 Pilnas vardas :  MariusKosmosas
 ```
+
 ### Bulio logikos tipo kintamieji (angl. Boolean)
+
 Vienintelis tipas, kuris gali turėti ir įgyti tik dvi reikšmes: true arba false.
 
 ```go
@@ -195,7 +196,9 @@ func main() {
 	fmt.Println(palyginimas)
 }
 ```
+
 Ekranas bus išvestas tekstas:
+
 ```cmd
 false
 true
