@@ -20,5 +20,5 @@ star: true
 footer: MIT Licensed | Copyright © 2021-present M. Gzegozevskis
 ---
 
-## Rezervuoti žodžiai (angl. Reserved Keywords) Go programavimo kalboje
+## Medžiaga ruošiama
 
