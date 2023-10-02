@@ -2,7 +2,7 @@
 # This is the icon of the page
 
 # This is the title of the article
-title: Funkckijos ir metodai
+title: Funkcijos
 # Set author
 author: M.Gzegozevskis
 # Set writing time
@@ -20,7 +20,7 @@ star: true
 footer: MIT Licensed | Copyright © 2021-present M. Gzegozevskis
 ---
 
-## Funkcijos ir metodai
+## Funkcijos
 
 Go programavimo kalboje funkcija yra aprašoma naudojant raktažodį `func`. Funkcijos aprašymas atrodo taip: 
 ```cmd
@@ -121,4 +121,3 @@ Ekranas bus atvaizduotas rezultatas:
 p = 10 and q = 20
 p = 10 and q = 20
 ```
-# https://www.geeksforgeeks.org/variadic-functions-in-go/?ref=lbp

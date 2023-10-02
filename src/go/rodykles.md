@@ -20,4 +20,4 @@ star: true
 footer: MIT Licensed | Copyright © 2021-present M. Gzegozevskis
 ---
 
-## Medžiaga ruošiama
+## Informacija ruošiama :)

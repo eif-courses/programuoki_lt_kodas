@@ -20,4 +20,9 @@ star: true
 footer: MIT Licensed | Copyright © 2021-present M. Gzegozevskis
 ---
 
-## Medžiaga ruošiama
+## Lygiagretumas programavimo kalboje Go (angl. Concurrency in Go)
+
+Plačiau galite rasti šiuose šaltiniuose:
+- https://gobyexample.com/goroutines
+- https://go.dev/tour/concurrency/1#
+- https://www.programiz.com/golang/goroutines

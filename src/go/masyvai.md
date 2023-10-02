@@ -20,9 +20,7 @@ star: true
 footer: MIT Licensed | Copyright © 2021-present M. Gzegozevskis
 ---
 
-## Rezervuoti žodžiai (angl. Reserved Keywords) Go programavimo kalboje
-
-### Masyvas (angl. Array)
+## Masyvas arba sąrašas (angl. Array)
 Fiksuoto dydžio duomenų struktūra sąrašas:
 ```go
 package main

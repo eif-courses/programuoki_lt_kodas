@@ -2,11 +2,11 @@
 # This is the icon of the page
 
 # This is the title of the article
-title: REST API kūrimas
+title: Interfeisas
 # Set author
 author: M.Gzegozevskis
 # Set writing time
-date: 2023-09-26
+date: 2023-10-02
 # A page can only have one category
 category: Go programavimo kalba
 # A page can have multiple tags
@@ -20,4 +20,4 @@ star: true
 footer: MIT Licensed | Copyright © 2021-present M. Gzegozevskis
 ---
 
-## Informacija ruošiama :)
+# Informacija ruošiama :)

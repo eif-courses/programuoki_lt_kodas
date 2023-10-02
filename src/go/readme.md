@@ -20,8 +20,6 @@ star: true
 footer: MIT Licensed | Copyright © 2021-present M. Gzegozevskis
 ---
 
-## Programavimo kalba Go
-
 ### Pasirengimas darbui su programavimo kalba Go
 Atsiųsti ir įdiegti Go programavimo kalbos SDK (angl. Software Development Kit): https://go.dev/
 

@@ -90,6 +90,7 @@ export default sidebar({
             children: [
                 "",
                 "tipai",
+                "isvedimas",
                 "ivedimas",
                 "rodykles",
                 "masyvai",
@@ -97,9 +98,11 @@ export default sidebar({
                 "salygos",
                 "ciklai",
                 "funkcijos",
+                "metodai",
                 "strukturos",
-                "lygiagretumas",
+                "interfeisas",
                 "webservisai",
+                "lygiagretumas",
             ]
         }],
     "/cpp/": [
