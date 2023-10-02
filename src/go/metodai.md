@@ -20,11 +20,7 @@ star: true
 footer: MIT Licensed | Copyright © 2021-present M. Gzegozevskis
 ---
 
-Go programvimo kalboje nėra klasių tačiau yra alternatyva naudoti metodus, kurie yra analogiška struktūra go struct (
-tipo praplėtimui papildymui nauju funkcionalumu) žinomu kaip funkcija praplėsti funkcionalumą (angl. Extension
-function).
-
-Bazinė struktūra labai panaši į funkciją tik turi papildomą parametrą, kuris yra kaip įvesties tipas (angl. Receiver).
+Go programvimo kalboje nėra klasių tačiau yra alternatyva naudoti metodus, kurie yra analogiška struktūra go struct (tipo praplėtimui papildymui nauju funkcionalumu) žinomu kaip funkcija praplėsti funkcionalumą (angl. Extension function). Bazinė struktūra labai panaši į funkciją tik turi papildomą parametrą, kuris yra kaip įvesties tipas (angl. Receiver).
 
 ```go
 func(reciver_pavadinimas Tipas) metodo_pavadinimas(parameterų sąrašas)(return_tipas){

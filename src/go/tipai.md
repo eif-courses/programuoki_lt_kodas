@@ -204,31 +204,3 @@ false
 true
 false
 ```
-
-## Konstantos
-
-## Operacijos
-
-## Funkcijos
-
-## Įvedimas ir išvedimas
-
-## Sąlygos sakiniai
-
-## Ciklas for
-
-## Kolekcijos
-
-## Struktūros
-
-## Interfeisai
-
-## Paketai
-
-## Testavimas
-
-## Klaidų valdymas
-
-## Failų skaitymas ir rašymas
-
-## Web serverio kūrimas
